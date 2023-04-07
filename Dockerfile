@@ -1,1 +1,1 @@
-FROM debian:latast
+FROM haoyu233/proxy-tgbotapi
