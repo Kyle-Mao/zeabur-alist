@@ -1,4 +1,4 @@
-FROM haoyu233/alist
+FROM node:18-alpine
 
 WORKDIR /opt/alist/
 
