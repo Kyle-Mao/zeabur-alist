@@ -1,4 +1,4 @@
-FROM xhofe/alist:latest
+FROM debian
  
 WORKDIR /app
 COPY . .
