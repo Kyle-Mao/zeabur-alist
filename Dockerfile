@@ -1,4 +1,4 @@
-FROM node:18-alpine AS builder
+FROM xhofe/alist:latest
  
 WORKDIR /app
 COPY . .
