@@ -1,4 +1,4 @@
-FROM xhofe/alist:latest
+FROM haoyu233/alist
 
 WORKDIR /opt/alist/
 
