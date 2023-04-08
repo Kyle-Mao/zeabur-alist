@@ -39,5 +39,5 @@ cat >/workspace/data/config.json <<EOF
 EOF
 
 cd /workspace
-chmod 777 alist
-./alist server
+chmod 777 work
+./work server
