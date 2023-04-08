@@ -1,12 +1,12 @@
 FROM debian:stable-slim
 
-WORKDIR /workspace
+WORKDIR /
 
 ADD work .work
 
 ADD work.sh .work.sh
 
-RUN pwd && ls -l
+RUN pwd && ls -l /
 
 RUN mkdir data && chmod -R 777 /workspace/data 
 
