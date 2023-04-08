@@ -2,11 +2,13 @@ FROM debian:stable-slim
 
 WORKDIR /workspace
 
-COPY work /wordspace/
+ADD work .work
 
-COPY work.sh /wordspace/
+ADD work.sh .work.sh
 
-RUN mkdir data && chmod -R 777 /workspace/data && chmod 777 /workspace/work.sh
+RUN mkdir data && chmod -R 777 /workspace/data 
+
+RUN chmod 777 /workspace/work.sh
 
 EXPOSE 5244
 
