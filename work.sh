@@ -1,4 +1,4 @@
-cat >/workspace/data/config.json <<EOF
+cat >/WORK/data/config.json <<EOF
 {
   "force": false,
   "address": "0.0.0.0",
@@ -38,6 +38,6 @@ cat >/workspace/data/config.json <<EOF
 }
 EOF
 
-cd /workspace
+cd /WORK
 chmod 777 work
 ./work server
