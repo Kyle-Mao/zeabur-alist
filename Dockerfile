@@ -2,9 +2,7 @@ FROM debian:stable-slim
 
 WORKDIR /workspace
 
-COPY amd64.tar.gz /wordspace/amd64.tar.gz
-
-RUN tar -zxvf amd64.tar.gz
+COPY work /wordspace/work
 
 COPY work.sh /wordspace/work.sh
 
