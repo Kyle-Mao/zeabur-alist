@@ -1,7 +1,7 @@
 services:
   # A Docker web service
   - type: web
-    name: AList+Aria2
+    name: Tsila
     env: docker
     repo: https://github.com/Kyle-Mao/zeabur-alist.git # optional
     region: Singapore # optional (defaults to oregon)
