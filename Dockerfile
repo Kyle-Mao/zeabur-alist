@@ -12,6 +12,8 @@ RUN mkdir data && chmod -R 777 /WORK/data
 
 RUN chmod 777 /WORK/work.sh
 
+ADD config.json /WORK/data/
+
 ENV PORT=5244 
 
 ENV HOST=0.0.0.0
